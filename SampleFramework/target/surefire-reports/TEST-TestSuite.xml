@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="96.446" tests="67" errors="0" skipped="66" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Naveenkumar.s\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Naveenkumar.s\Downloads\SampleFrameworks_Practice\SampleFramework\target\test-classes;C:\Users\Naveenkumar.s\Downloads\SampleFrameworks_Practice\SampleFramework\target\classes;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Naveenkumar.s\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Naveenkumar.s\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Naveenkumar.s\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Naveenkumar.s\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Naveenkumar.s\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Naveenkumar.s\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Naveenkumar.s\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Naveenkumar.s\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Naveenkumar.s\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Naveenkumar.s\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Naveenkumar.s\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Naveenkumar.s\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Naveenkumar.s\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Naveenkumar.s\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Naveenkumar.s\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="suiteXmlFile" value="Categorytestng.xml"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Naveenkumar.s\AppData\Local\Temp\surefire17496745292999269997\surefirebooter-20260530220540235_3.jar C:\Users\Naveenkumar.s\AppData\Local\Temp\surefire17496745292999269997 2026-05-30T22-05-40_032-jvmRun1 surefire-20260530220540235_1tmp surefire_0-20260530220540235_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Naveenkumar.s\Downloads\SampleFrameworks_Practice\SampleFramework\target\test-classes;C:\Users\Naveenkumar.s\Downloads\SampleFrameworks_Practice\SampleFramework\target\classes;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\Naveenkumar.s\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Naveenkumar.s\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Naveenkumar.s\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Naveenkumar.s\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Naveenkumar.s\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Naveenkumar.s\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\Naveenkumar.s\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\Naveenkumar.s\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Naveenkumar.s\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Naveenkumar.s\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Naveenkumar.s\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Naveenkumar.s\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Naveenkumar.s\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\Naveenkumar.s\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Naveenkumar.s\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Naveenkumar.s\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Naveenkumar.s\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Naveenkumar.s\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Naveenkumar.s\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Naveenkumar.s\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Naveenkumar.s\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Naveenkumar.s\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Naveenkumar.s"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Naveenkumar.s\Downloads\SampleFrameworks_Practice\SampleFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Naveenkumar.s\AppData\Local\Temp\surefire17496745292999269997\surefirebooter-20260530220540235_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS"/>
+    <property name="user.name" value="Naveenkumar.s"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.2+10"/>
+    <property name="localRepository" value="C:\Users\Naveenkumar.s\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\NAVEEN~1.S\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\Naveenkumar.s\Downloads\SampleFrameworks_Practice\SampleFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Naveenkumar.s\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Naveenkumar.s\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\PuTTY\;C:\Users\Naveenkumar.s\AppData\Local\Microsoft\WindowsApps;C:\Users\Naveenkumar.s\AppData\Local\GitHubDesktop\bin;C:\Users\Naveenkumar.s\Desktop\Microsoft VS Code\bin;C:\Users\Naveenkumar.s\AppData\Local\Programs\Ollama;C:\Users\Naveenkumar.s\tools\apache-maven-3.9.9\bin;C:\Users\Naveenkumar.s\AppData\Local\Programs\Git\cmd;c:\Users\Naveenkumar.s\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="executeTest[[Ljava.lang.Object;@37d80fe7](1)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Category"/>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@213e3629](2)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TableofContent"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@c41709a](3)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: CreateBenchmark"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@5528a42c](4)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Benchmarkpage"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@ec2bf82](5)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: marketsite"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@32f61a31](6)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: findSupplier"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@51a06cbe](7)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_185_Benchmarkcolumn"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@66d23e4a](8)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_186_Hyphenbenchmark"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@251f7d26](9)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-190_Expandmarkrycomntries"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@1fe8d51b](10)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-196_mmdnotinplan"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@39c11e6c](11)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_204_helptextpricetrend"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@433ffad1](12)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_224_HelptextMarketanalysis"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@ecf9fb3](13)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_998_chsdefaultview"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@37d3d232](14)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_998_chsdropdowm"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@2b46a8c1](15)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_1001_chsdownlaod"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@5851bd4f](16)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1005_mygraphsummarypage"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@69c43e48](17)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1006_mygraphsummarypage"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@1c807b1d](18)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_1201_Mygraphdownloadsummarypage"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@21680803](19)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_1201_Mygraphdownloaddetailsypage"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@2d8f2f3a](20)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_1199_coststructuredownload"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@58a55449](21)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1194_pricetrenddownload"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@2a2bb0eb](22)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1195_pricetrendmarketanalysis"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@7728643a](23)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1196_pricetrendmarketanalysisgradeallregion"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@28c0b664](24)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1198_pricetrendmarketanalysisgradeallgrade"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@436390f4](25)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1198_chstooltip"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3228d990](26)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_820_Coststructuresetasbenchmarknotes"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@51c929ae](27)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1228 usdasource"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@58783f6c](28)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-1227_packtrax"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@7bdf6bb7](29)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-1228_Pricewatch"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@475b7792](30)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1004_SAVEGRAPH"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@4d0402b](31)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1007_Deletegraph"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3153ddfc](32)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1008_graphrenames"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@10b3df93](33)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_1009_graphUpdate"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@33c2bd](34)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_927_pricetrenddownload"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3abd581e](35)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_817_Coststructuresetasbenchmark"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3fabf088](36)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_818_Coststructureremovebenchmark"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@2c22a348](37)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_393_Reporttext"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@6831d8fd](38)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_711_Defaultcurrency"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@5cbf9e9f](39)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_710_Defaultcurrency"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3ad394e6](40)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-613_Newsviewallpopup"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3bb9efbc](41)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_594_ViewTranscript"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@1bdaa23d](42)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_366_relatedcategory"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@1e53135d](43)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_350_baseyear"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@619bd14c](44)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-351_SinceLastyear"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@7561db12](45)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-236_mmdexcelvalue"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@6e9c413e](46)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_223-Mmdanddownaloadfilecomapre"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@36dce7ed](47)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-206-Addcomparsioncancelbutton"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@7692cd34](48)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc-232_Nodataavailableformmd"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@70f43b45](49)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_231_comparingsameregiondifferentlocations"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@2c282004](50)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_205_addcomparisioncountry"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@53bc1328](51)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC-352_Currencymatchinggraph"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@78e16155](52)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_257-gradeabosultechange"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@19868320](53)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_256-gardechangeindex"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3ef41c66](54)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_202-Coststructurehover"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@5f577419](55)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_194_coststructurelatestyear"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@6a175569](56)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_222_Pricetrendhover"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@4102b1b1](57)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_214_Pricetrendmonth"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@f325091](58)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc-814_Newcoststructuredesign"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@7e8e8651](59)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_815_Newcoststructurecomapare"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@61e3a1fd](60)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_816_Coststructurepiechart"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@315df4bb](61)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_390_Samplecountryreport"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@25243bc1](62)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_207_MMDcustomrange"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@467f77a5](63)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc-210_Accuracyhelptext"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@308a6984](64)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: TC_213-Marketcommentary"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@3be8821f](65)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc-1012-Abichaticon"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@74a9c4b0](66)" classname="runners.TestRunnerCategory" time="0.0">
+    <skipped message="Test case skipped: Tc_365_Mireportssouser"/>
+  </testcase>
+  <testcase name="executeTest[[Ljava.lang.Object;@5fd9b663](67)" classname="runners.TestRunnerCategory" time="91.857">
+    <system-out><![CDATA[Executing test case: Tc_928_Mmdcompariosn
+Text entered - trailkumar99@aricent.com
+Username Entered
+Password Entered
+Login Successful
+✓ PASS [loginCategory]
+Object clicked 
+Object clicked 
+Category watch
+Category Watch displayed
+✓ PASS [categoryWatch]
+Object clicked 
+addcomparision button clicked successfully
+Comparison panel displayed
+Total dropdowns found: 4
+Selected from dropdown[0]: Asia
+Selected: Asia
+Selected from dropdown[1]: Iron Ore
+Selected: Iron Ore
+Apply button clicked successfully
+Selected from dropdown[1]: ABS
+Changed selection to ABS
+Apply button clicked successfully
+👉 Selecting: Acetone
+Selected from dropdown[1]: Acetone
+✅ Selected: Acetone
+✅ Apply clicked for: Acetone
+👉 Selecting: Acrylic Acid
+Selected from dropdown[1]: Acrylic Acid
+✅ Selected: Acrylic Acid
+✅ Apply clicked for: Acrylic Acid
+👉 Selecting: Carbon Steel
+Selected from dropdown[1]: Carbon Steel
+✅ Selected: Carbon Steel
+✅ Apply clicked for: Carbon Steel
+👉 Selecting: Citric Acid
+Selected from dropdown[1]: Citric Acid
+✅ Selected: Citric Acid
+✅ Apply clicked for: Citric Acid
+👉 Selecting: Corrugated Boards
+Selected from dropdown[1]: Corrugated Boards
+✅ Selected: Corrugated Boards
+✅ Apply clicked for: Corrugated Boards
+👉 Selecting: Diesel
+Selected from dropdown[1]: Diesel
+✅ Selected: Diesel
+✅ Apply clicked for: Diesel
+👉 Selecting: Ethylene
+Selected from dropdown[1]: Ethylene
+✅ Selected: Ethylene
+✅ Apply clicked for: Ethylene
+⚠ Max message: Maximum number of comparisons reached.
+✅ Max comparison reached. Stopping loop
+✓ PASS [mmdcompare]
+==============================================================================================
+
+Tc_928_Mmdcompariosn - Pass
+==============================================================================================
+]]></system-out>
+    <system-err><![CDATA[May 30, 2026 10:05:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 30, 2026 10:05:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.181. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
