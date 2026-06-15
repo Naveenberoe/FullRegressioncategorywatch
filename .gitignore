@@ -1,0 +1,16 @@
+# Test output
+test-output/
+
+# Screenshots
+*.png
+
+# Build folders
+target/
+build/
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
