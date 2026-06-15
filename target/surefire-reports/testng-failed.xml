@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="Global Search(failed)" verbose="0">
+    <classes>
+      <class name="runners.TestRunnerOperation">
+        <methods>
+          <include name="executeTest" invocation-numbers="0 1 2"/>
+          <include name="testTeardown"/>
+          <include name="tearDownSuite"/>
+          <include name="loadTestCases"/>
+        </methods>
+      </class> <!-- runners.TestRunnerOperation -->
+    </classes>
+  </test> <!-- Global Search(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="none" thread-count="1" configfailurepolicy="continue">
+
+	<listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+    
+  <test name ="Global Search">
+	  <classes>
+		  <class name="runners.TestRunnerGlobal"></class>
+	  </classes>
+  </test> <!-- Test -->
+ 
+  
+  <!--<test thread-count="0" name="Case 2" parallel="false"> 
+	  <classes>
+		  <class name="testCases.TestCase_05"></class>
+	  </classes>
+  </test>  Test -->
+  
+</suite> <!-- Suite -->

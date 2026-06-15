@@ -1,0 +1,8 @@
+testScripts\Operationfullregression.class
+keywords\ColumnKeywordExecutor$TestClassEntry.class
+runners\TestRunnerCategory.class
+keywords\ColumnKeywordExecutor.class
+testScripts\CommonSteps.class
+testScripts\Sample.class
+runners\TestRunnerOperation.class
+testScripts\CategoryFullregression.class
